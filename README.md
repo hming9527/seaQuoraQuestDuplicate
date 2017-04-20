@@ -12,10 +12,9 @@ clean the text, men=man, had = have,
 https://code.google.com/archive/p/word2vec/
 
 3. cluster and regression
-
- 1) cluster for grouping words, and for later similarity question detection 
+ 3.1 cluster for grouping words, and for later similarity question detection 
 choose top related word with the words user input, search questions containing related words.
 
- 2) regression for tell duplicate question:
+ 3.2 regression for tell duplicate question:
 add all word’s feature vector (e.g. 300 dimension), get 2 doc’s cosine distance. Rregression function: cosine dist => [0,1] 
 Regression output will tell if two questions are duplicate
