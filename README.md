@@ -12,6 +12,7 @@ clean the text, men=man, had = have,
 https://code.google.com/archive/p/word2vec/
 
 3. cluster and regression
+
  3.1 cluster for grouping words, and for later similarity question detection 
 choose top related word with the words user input, search questions containing related words.
 
